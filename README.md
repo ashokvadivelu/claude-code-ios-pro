@@ -30,12 +30,12 @@ It's **opinionated but generic**: Swift 6 + SwiftUI first, MVVM with `@Observabl
 ## Quick install (one command)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-username>/claude-code-ios-pro/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ashokvadivelu/claude-code-ios-pro/main/install.sh | bash
 ```
 
 The installer is interactive: it asks before overwriting anything, backs up existing files to `~/.claude/backup-<timestamp>/`, and lets you skip parts you don't want.
 
-> **Heads up:** the URL above is a placeholder. Replace `<your-username>` with your GitHub handle after you push this repo.
+
 
 ---
 
