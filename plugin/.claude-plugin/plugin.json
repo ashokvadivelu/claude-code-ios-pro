@@ -1,0 +1,9 @@
+{
+  "name": "ios-dev-pro",
+  "version": "1.0.0",
+  "description": "Production-grade iOS development setup: 8 specialized subagents (architect, reviewer, SwiftUI, security, crypto, testing, research, build doctor), 7 slash commands, 6 lifecycle hooks, and the ios-bootstrap skill. Swift 6 + SwiftUI first, OWASP MASVS aligned.",
+  "author": "claude-code-ios-pro contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/<your-username>/claude-code-ios-pro",
+  "minimumClaudeCodeVersion": "2.0.0"
+}

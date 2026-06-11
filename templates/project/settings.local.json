@@ -1,0 +1,15 @@
+{
+  "_comment": "Personal overrides for THIS project. Gitignored \u2014 your settings, your simulator, your sandbox tokens.",
+  "model": "claude-sonnet-4-5-20250929",
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "env": {
+    "DEFAULT_SIMULATOR": "iPhone 16 Pro",
+    "CLAUDE_IOS_LINT_MODE": "balanced"
+  },
+  "mcpServers": {
+    "_comment": "MCP servers that need personal credentials go here, not in .mcp.json"
+  }
+}

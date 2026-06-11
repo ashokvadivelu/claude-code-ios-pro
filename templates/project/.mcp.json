@@ -1,0 +1,22 @@
+{
+  "_comment": "Project-shared MCP servers — committed to git so the whole team gets the same tools. Personal MCP servers (with credentials) go in .claude/settings.local.json.",
+
+  "mcpServers": {
+    "XcodeBuildMCP": {
+      "command": "npx",
+      "args": ["-y", "xcodebuildmcp@latest"]
+    },
+
+    "sosumi": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://sosumi.ai/mcp"]
+    }
+  },
+
+  "_notes": [
+    "XcodeBuildMCP — builds, tests, simulators, screenshots. ~59 tools. Maintained by Sentry. https://github.com/cameroncooke/XcodeBuildMCP",
+    "sosumi — Apple developer documentation as Markdown. Proxies via the hosted server at https://sosumi.ai/mcp. Repo: https://github.com/NSHipster/sosumi.ai",
+    "Xcode 26.3+ — also add 'xcrun mcpbridge' via `claude mcp add` for native Xcode IDE access including SwiftUI preview rendering.",
+    "GitHub MCP — add via the Claude Code settings UI (requires OAuth, not a static config)."
+  ]
+}

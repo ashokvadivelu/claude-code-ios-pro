@@ -1,0 +1,32 @@
+{
+  "_comment": "Project-shared settings \u2014 committed to git. Personal overrides go in .claude/settings.local.json.",
+  "enabledPlugins": {
+    "ios-dev-pro@claude-code-ios-pro": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-ios-pro": {
+      "source": {
+        "source": "github",
+        "repo": "<your-username>/claude-code-ios-pro"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "mcp__xcodebuildmcp__*",
+      "Bash(swift test*)",
+      "Bash(swift build*)"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Write(**/Pods/**)",
+      "Write(**/DerivedData/**)"
+    ]
+  },
+  "env": {
+    "PROJECT_NAME": "<your-project-name>",
+    "DEFAULT_SIMULATOR": "iPhone 16 Pro",
+    "MIN_IOS_VERSION": "17.0",
+    "SWIFT_VERSION": "6.0"
+  }
+}

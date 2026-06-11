@@ -1,0 +1,29 @@
+{
+  "name": "claude-code-ios-pro",
+  "description": "Production-grade Claude Code setup for senior iOS developers: 8 subagents, 7 slash commands, 6 hooks, MCP connector recommendations, and team-shareable CLAUDE.md templates.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "claude-code-ios-pro contributors",
+    "url": "https://github.com/<your-username>/claude-code-ios-pro"
+  },
+  "plugins": [
+    {
+      "name": "ios-dev-pro",
+      "source": "./plugin",
+      "description": "Subagents, commands, hooks, and skills for senior iOS development with Swift 6, SwiftUI, and security-first defaults.",
+      "version": "1.0.0",
+      "category": "iOS Development",
+      "keywords": [
+        "ios",
+        "swift",
+        "swiftui",
+        "xcode",
+        "swift6",
+        "security",
+        "mvvm",
+        "swift-testing",
+        "owasp-masvs"
+      ]
+    }
+  ]
+}

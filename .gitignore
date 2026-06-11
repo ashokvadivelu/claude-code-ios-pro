@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code — personal/local state
+.claude/settings.local.json
+.claude/session.log
+.claude/backup-*
+
+# Node / npx caches if anyone runs npx-based MCP servers from the repo
+node_modules/
+.npm
+
+# Build artefacts (in case the repo ever holds an example project)
+build/
+DerivedData/
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# OS-specific cruft
+Thumbs.db
+desktop.ini
