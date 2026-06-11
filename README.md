@@ -45,7 +45,7 @@ If your team shares a repo, the plugin install adds the agents/commands/hooks/sk
 
 ```bash
 # Inside any Claude Code session
-/plugin marketplace add <your-username>/claude-code-ios-pro
+/plugin marketplace add ashokvadivelu/claude-code-ios-pro
 /plugin install ios-dev-pro@claude-code-ios-pro
 ```
 
@@ -60,7 +60,7 @@ To make installation automatic for every teammate, add this to your project's `.
     "claude-code-ios-pro": {
       "source": {
         "source": "github",
-        "repo": "<your-username>/claude-code-ios-pro"
+        "repo": "ashokvadivelu/claude-code-ios-pro"
       }
     }
   }
@@ -75,7 +75,7 @@ If you'd rather pick-and-choose, every file lives at a known path:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/claude-code-ios-pro.git
+git clone https://github.com/ashokvadivelu/claude-code-ios-pro.git
 cd claude-code-ios-pro
 
 # 2. Copy global templates (your personal iOS-dev brain)
